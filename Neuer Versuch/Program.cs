@@ -153,7 +153,7 @@ namespace Übungen
                 tabelle[0, 2] = ("mittig");
                 tabelle[0, 3] = ("unten");
 
-                Console.WriteLine(tabelle[int x, int y]);
+                Console.WriteLine(tabelle[x,y]);
             }
         }
     }
