@@ -151,6 +151,8 @@ namespace Übungen
 
                 tabelle[0, 1] = ("oben");
                 tabelle[0, 2] = ("mittig");
+                
+                // das hier wirft einen Fehler - guck mal wie groß dein Array ist und welchen Index du hier versuchst zu beschreiben... 
                 tabelle[0, 3] = ("unten");
 
                 Console.WriteLine(tabelle[x,y]);
